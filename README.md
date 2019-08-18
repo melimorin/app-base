@@ -1,4 +1,4 @@
-#installation sass
+# installation sass
 
 #### Dans le terminal
 
