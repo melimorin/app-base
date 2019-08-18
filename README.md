@@ -1,4 +1,4 @@
-# installation sass
+# Installation sass
 
 #### Dans le terminal
 
@@ -7,7 +7,7 @@
 
 #### Dans package json
 
-3. Ajouter dans script la tache sass\
+3. Ajouter dans script la tache sass
 ```json
 "scripts": {
     "sass": "sass ./sass:./css"
