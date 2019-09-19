@@ -17,3 +17,26 @@
 #### Dans le terminal
 
 4. npm run sass
+
+#### Methode promesse
+
+```static main() {
+		// https://chucknorrisfacts.fr/api/get?data=tri:alea;nb99;
+		this.chargerJson("http://localhost:5500/data/citations.json");
+	}
+
+	static chargerJson(url) {
+		new Promise( resolve => {
+
+			var xhr = new XMLHttpRequest();
+			xhr.open("get", url);
+			xhr.responseType = "json";
+			xhr.addEventListener("load", e => {
+				resolve(xhr.response);
+			});
+	
+	
+			xhr.send();
+		});
+	}
+```
