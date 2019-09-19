@@ -20,7 +20,8 @@
 
 #### Methode promesse
 
-```static main() {
+```
+static main() {
 		// https://chucknorrisfacts.fr/api/get?data=tri:alea;nb99;
 		this.chargerJson("http://localhost:5500/data/citations.json");
 	}
