@@ -23,11 +23,15 @@
 ```
 static main() {
 		// https://chucknorrisfacts.fr/api/get?data=tri:alea;nb99;
-		this.chargerJson("http://localhost:5500/data/citations.json");
+		this
+		.chargerJson("http://localhost:5500/data/citations.json")
+		.then(data => {
+			console.log(data);
+		});
 	}
 
 	static chargerJson(url) {
-		new Promise( resolve => {
+		return new Promise( resolve => {
 
 			var xhr = new XMLHttpRequest();
 			xhr.open("get", url);
