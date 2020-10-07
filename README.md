@@ -45,3 +45,15 @@ static main() {
 		});
 	}
 ```
+# Ajouter une discussion messenger dans un site
+
+//Bonjour, comment puis-je vous aider? 
+
+1. Acceder au facebook buisness par Business Manager
+2. Dans Parametre / messagerie / Ajouter Messenger a votre site, suivre les étapes
+3. Copier le code et le coller dans header.php, sous la balise <body>
+
+# Ajouter un pixel code facebook
+
+1. Copier le code et le coller dans header.php, dans le <head>
+
